@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kauanzinho</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+        @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css);
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html,
+        body {
+            height: 100%;
+            /*border: 10px solid black;*/
+            background-image: url('S0-modele--lamborghini-veneno.jpg');
+        }
+        
+        body {
+            background-color: grey;
+            /* border: 10px dotted white; */
+            color: white;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            font-size: 12px;
+        }
+        
+        #form-container {
+            left: calc(50% - 400px);
+            top: calc(50% - (350px / 2));
+            height: 350px;
+            width: 800px;
+            position: fixed;
+            border: 3px solid black;
+            opacity: 0.9;
+            background-color: black;
+            padding: 80px 50px;
+            font-family: 'Poppins', sans-serif;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+        
+        #singup {
+            width: 280px;
+        }
+        
+        #singup h1 {
+            width: 70%;
+            font-weight: 100px;
+            font-size: 20px;
+        }
+        
+        #singup p {
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+        
+        form {
+            position: absolute;
+            top: -10%;
+            background-color: white;
+            color: red;
+            width: 50%;
+            right: 40px;
+            height: 120%;
+            border: 1px solid black;
+            padding: 70px 40px;
+            border-radius: 5px;
+        }
+        
+        form h2 {
+            color: red;
+            padding: 25px;
+            text-transform: uppercase;
+        }
+        
+        form .linha {
+            padding: 10px 0;
+            border-bottom: 1px solid grey;
+            margin-bottom: 20px;
+        }
+        
+        form .linha input {
+            width: 90%;
+            height: 35px;
+            color: grey;
+            border: none;
+            outline: none;
+        }
+        
+        form #forgot-login button {
+            width: 48%;
+            border: 1px solid red;
+            height: 35px;
+        }
+        
+        form #forgot-login #login {
+            background-color: red;
+            border: 1px solid red;
+            color: white;
+            text-transform: uppercase;
+            border-radius: 3px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <main id="form-container">
+        <div id="singup">
+            <h1>Você nâo tem uma conta?</h1>
+            <p>Compre sua bicicleta de forma gratuita,sem juros!</p>
+            <p>Nâo perca tempo,se junte logo a nossa comunidade do kauanzinho semi deus matador de judeus e putas com corona virus</p>
+            <a href="#">SING UP</a>
+        </div>
+
+
+        <form action="">
+
+            <H2>Log in</H2>
+            <div class="linha">
+
+                <input type=email name="" id="email" placeholder="Email"> <i class="fas fa-envelope"></i>
+            </div>
+            <div class="linha">
+
+                <input type="passwaord" id="senha" placeholder="Password"> <i class="fas fa-unlock-alt"></i>
+            </div>
+            <div id="forgot-login">
+                <button id="forgot"> Forgot password? </button>
+                <button id="login">LOG-IN</button> icone
+            </div>
+        </form>
+
+    </main>
+</body>
+
+</html>
